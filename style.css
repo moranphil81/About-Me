@@ -1,23 +1,16 @@
-html{
+html {
     box-sizing: border-box;
 }
 
 
 
 
-body{
-    background-color:lightblue;
+body {
+    background-color: lightblue;
     background-repeat: repeat;
-    style
-
 }
 
-.nav{
-    background-color:lightblue;
-    font:black;
-}
-
-.nav-contents{
+.nav-contents {
     max-width: 900px;
     margin: auto;
     height: 55px;
@@ -28,19 +21,19 @@ body{
 }
 
 h1 {
-    
-    background-color= white;
-
+    background-color:lightblue;
     font-family: 'Arvo', serif;
     font-size: 30px;
     font-weight: bold;
     line-height: 55px;
     padding: 0px 10px;
-};
+}
 
 
 
-.topnav{
+
+
+.topnav {
     width: 500px;
 
     display: flex;
@@ -50,34 +43,26 @@ h1 {
 
 }
 
-.topnav a{
-    display: inline;
-    padding: 1em;
-    
-    color: white(0, 0, 0);
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    
-}
-.topnav a:hover{
-    background: lightblue;
+
+.topnav {
+background: lightblue;
 }
 
 
 
-.topnav a.icon{
+.topnav a.icon {
     display: none;
 }
 
 
 
 
-.container{
+.container {
     max-width: 980px;
     padding: 20px 20px;
-    background:b
+    background: lightblue;
     margin: 20px auto;
-    
+
 }
 
 h2 {
@@ -91,7 +76,8 @@ h2 {
     border-bottom: 3px solid;
 }
 
-p, .contact{
+p,
+.contact {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.6;
@@ -99,11 +85,11 @@ p, .contact{
 }
 
 
-.about{
+.about {
     display: flex;
 }
 
-.pic{
+.pic {
     width: 200px;
     height: 200px;
     align-self: baseline;
@@ -112,187 +98,109 @@ p, .contact{
 
 
 
-.port-pics{
-    display:flex;
+.port-pics {
+    display: flex;
     justify-content: flex-start;
     flex-flow: row wrap;
 }
 
-.port-pics > div{
+.port-pics>div {
     position: relative;
     margin: 10px;
 }
 
-.port-pics p{
+.port-pics p {
     position: absolute;
     bottom: 20px;
     margin: 0px;
     padding: 10px;
     width: 200px;
-    
-    background:lightblue
-=
+    background: lightblue;
     font-weight: bold;
     text-align: center;
 }
 
-.port-pics img{
+.port-pics img {
     width: 200px;
     height: 200px;
 }
 
 
-.social{
+.social {
     margin-top: 10px;
 }
-.social a{
+
+.social a {
     margin: 0px 30px;
 }
 
-input[type=text], textarea {
+input[type=text],
+textarea {
     width: 100%;
     padding: 12px;
     border: 2px solid #ccc;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-  }
-  
-  input[type=submit] {
-    background-color: ;
+}
+
+input[type=submit] {
+    background-color: lightblue;
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-    background-color: white;
-  }
+}
 
-  .column {
+input[type=submit]:hover {
+    background-color: lightblue;
+}
+
+.column {
     float: left;
     width: 50%;
     margin-top: 6px;
     padding: 20px;
-  }
+}
 
-  .row:after {
-    
+.row:after {
+
     display: table;
     clear: both;
-  }
+}
 
 
 
-.footer{
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    
+
     text-align: center;
 
     border-top: 3px solid #A5A5A4;
-    background: #FEFDF9;
+    background: lightblue;
 
     justify-content: center;
     flex-flow: column nowrap;
 }
 
-.footer > div{
-    margin:10px;
+.footer>div {
+    margin: 10px;
     line-height: .5em;
 
 }
 
-.credit a{
+.credit a {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
 }
 
-.credit p{
+.credit p {
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
 
 }
 
 
-@media screen and (max-width: 980px){
-    .nav-contents{
-        width: 75%;
-    }
-    .container{
-        width: 75%;
-        margin: 20px auto 100px auto;
-    }
-    .topnav{
-        width: 300px;
-    }
-    .social{
-        width: 100%;
-    }
-    .social a{
-        margin: 0px 20px;
-    }
-    .credit a {
-        font-size: 9px;
-        text-align: center;
-    }
-}
-@media screen and (max-width: 768px){
-    .nav-contents{
-        width: 75%;
-    }
-    .container{
-        width: 75%;
-        margin: 20px auto 100px auto;
-    }
-    .topnav{
-        width: 300px;
-    }
-    .social{
-        width: 100%;
-    }
-    .social a{
-        margin: 0px 10px;
-    }
-    .credit a {
-        font-size: 7px;
-        text-align: center;
-    }
-}
-@media screen and (max-width: 640px){
-    .nav-contents{
-        width: 100%;
-        height: 100px;
-    }
-    .container{
-        width: 95%;
-        margin: 30px auto 100px auto;
-    }
-    .nameTitle{
-        width: 100%;
-        text-align: center;
-    }
-
-    .topnav{
-        width: 100%;
-        justify-content: center;
-    }
-    .column{
-        width: 100%;
-    }
-    .social{
-        width: 100%;
-    }
-    .social a{
-        margin: 0px 30px;
-    }
-    .credit{
-        width: 100%;
-    }
-    .credit a {
-        font-size: 10px;
-        text-align: center;
-    }

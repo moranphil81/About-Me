@@ -1,5 +1,5 @@
-///Bootstrap Portfolio
- [Bootstrap Portfolio] 
+///Bootstrap Portfopo
+ [Bootstrap Portfopo] 
 
-This is my portfolio that i modified a second time
+This is my portfopo that i modified a second time
 
