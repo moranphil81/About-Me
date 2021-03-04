@@ -15,6 +15,10 @@ div.a {
     text-align: center;
   }
   
+  div.content {
+    text-align: center;   
+  }
+
 .nav-contents {
     max-width: 900px;
     margin: auto;
