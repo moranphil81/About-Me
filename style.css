@@ -6,13 +6,15 @@ html {
 
 
 body {
-    background-color: lightblue;
+    background-image: url("Screen\ Shot\ 2020-11-29\ at\ 12.02.26\ PM.png");
     background-repeat: repeat;
+    color: white;
 }
 
 
 div.a {
     text-align: center;
+    color: white;
   }
   
   div.content {
@@ -23,19 +25,23 @@ div.a {
     max-width: 900px;
     margin: auto;
     height: 55px;
-
+color: white;
     display: flex;
     justify-content: space-between;
     flex-flow: row wrap;
 }
 
+a {
+color: white;
+}
+
 h1 {
-    background-color: lightblue;
-    font-family: 'Arvo', serif;
+      font-family: 'Arvo', serif;
     font-size: 30px;
     font-weight: bold;
     line-height: 55px;
     padding: 0px 10px;
+    color:white;
 }
 
 .phil {
@@ -61,7 +67,7 @@ h1 {
 
 
 .topnav {
-    background: lightblue;
+    background: white;
 }
 
 
@@ -76,7 +82,7 @@ h1 {
 .container {
     max-width: 980px;
     padding: 20px 20px;
-    background: lightblue;
+    background: blue;
     margin: 20px auto;
 
 }
@@ -86,7 +92,7 @@ h2 {
     font-size: 30px;
     line-height: 2em;
     font-weight: bold;
-
+color: white;
     padding-bottom: .5em;
     margin-bottom: .7em;
     border-bottom: 3px solid;
@@ -161,7 +167,7 @@ textarea {
 }
 
 input[type=submit] {
-    background-color: lightblue;
+    background-color:white;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -169,7 +175,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: lightblue;
+    background-color: white;
 }
 
 .column {
@@ -195,8 +201,8 @@ input[type=submit]:hover {
 
     text-align: center;
 
-    border-top: 3px solid #A5A5A4;
-    background: lightblue;
+    border-top: 3px solid white;
+    
 
     justify-content: center;
     flex-flow: column nowrap;
